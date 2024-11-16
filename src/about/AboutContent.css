@@ -1,0 +1,148 @@
+.About_container{
+    padding: 0;
+    color: #B37600;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.About_ment{
+    font-size: 25px;
+    margin-bottom: 100px;
+    line-height: 2.5; 
+}
+
+.About_profile-content{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.About_profile{
+    position: relative;
+}
+
+.profile-img{
+    width: 300px;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.profile-circle{
+    position: absolute;
+    bottom: -70px;
+    left: 90%;
+    transform: translateX(-50%);
+    width: 270px;
+    height: 270px;
+    border: 2px solid #B37600;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.About_profile-info{
+    margin-top: 250px;
+    margin-left: 180px;
+}
+
+.About_profile-info-name1{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.About_profile-info-name2{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+.About_profile-info-birth{
+    font-size: 15px;
+    margin-top: 18px;
+    margin-left: 3px;
+}
+
+.About_line{
+    width: 85%;
+    height: 1px;
+    background-color: #B37600;
+    margin: 40px 0;
+}
+
+.About_experience{
+    text-align: left;
+    align-self: flex-start; /* 컨테이너의 왼쪽에 정렬되도록 설정 */
+    margin-left: 200px;
+}
+
+.About_experience-name{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.About_experience-content{
+    font-size: 18px;
+    line-height: 2; 
+}
+
+@keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    transform: translateY(100px);
+    }
+    100% {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}
+
+.About_keyword-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.About_keyword-row {
+    display: flex;
+    gap: 25px;
+}
+
+.About_keyword, .About_keyword-main {
+    padding: 10px 20px;
+    border: 1px solid #B37600;
+    border-radius: 30px;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(420px); /* 초기 위치 */
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    display: none;
+}
+
+.About_keyword-main {
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #B37600;
+    font-size: 18px;
+}
+
+.in-view .About_keyword,
+.in-view .About_keyword-main {
+    animation: fadeInUp 3s ease forwards;
+    animation-delay: calc(var(--i) * 0.5s);
+    opacity: 1;
+    display: inline-block;
+}
+
+
+.About_keyword:hover {
+    font-weight: bold;
+    border: 2px solid #B37600;
+}

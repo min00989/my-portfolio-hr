@@ -1,0 +1,85 @@
+.Contact_container{
+    padding: 0;
+    color:#B37600;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 220px;
+}
+
+.Contact_ment{
+    display: flex;
+    margin-bottom: 220px;
+}
+
+.Contact_ment img{
+    width: 450px;
+    height: 700px;
+}
+
+.Contact_ment-coment{
+    font-size: 28px;
+    line-height: 2.8;
+    margin-top: 260px;
+    margin-left: 80px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.Contact_container2{
+    display: flex;
+    margin-left: 250px;
+    margin-bottom: 300px;
+}
+
+.Contact_circular-text-container{
+    position: relative;
+    display: flex;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.Contact_circular-text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: rotateText 17s linear infinite; /* 원형 회전 애니메이션 */
+}
+
+.Contact_circular-text span{
+    position: absolute;
+    transform-origin: 0 20; /* 원형 배치 기준점 설정 */
+    font-size: 28px;
+    font-weight: bold;
+    white-space: pre;
+}
+
+@keyframes rotateText {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.Contact_content{
+    margin-left: 480px;
+    margin-top: 205px;
+    font-size: 18px;
+}
+
+.Contact_line{
+    width: 100%;
+    height: 1px;
+    background-color: #B37600;
+    margin: 20px 0;
+}
+
+.Contact_content-text{
+    font-weight: bold;
+    margin-bottom: 5px;
+}

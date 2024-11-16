@@ -1,0 +1,127 @@
+.Skils-container{
+    padding: 0;
+    color:#B37600;
+    margin-top: 150px;
+    margin-left: 220px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Skils-coment{
+    font-size: 120px;
+    font-weight: bold;
+    margin-bottom: 75px;
+}
+
+.Skils-conainer_logo{
+    z-index: 2;
+    position: relative;
+    margin-left: 70px;
+    margin-bottom: 300px;
+    margin-top: 100px;
+}
+
+.Skils-conainer_bg{
+    background-image: var(--background-image);
+    width: 700px;
+    height: 460px;
+    margin-left: 310px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 20px;
+    margin-bottom: 300px;
+}
+
+.Skils-conainer_logo1 img{
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.Skils-conainer_logo2{
+    margin-left: 60px;
+}
+
+.Skils-conainer_logo2 img{
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.Skils-conainer_logo3 img{
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.Skils_work-container{
+    margin-top: 100px;
+    margin-bottom: 300px;
+    margin-left: 130px;
+}
+
+.Skils_work-ment{
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 70px;
+    margin-left: 55px;
+}
+
+.Skils_work-coment{
+    font-size: 23px;
+    text-align: center;
+    line-height: 2.5;
+    margin-right: 305px;
+    margin-top: 70px;
+}
+
+
+.Skils-container_ment{
+    display: flex;
+    margin-top: 250px;
+    margin-bottom: 280px;
+}
+
+.Skils-ment{
+    font-size: 28px;
+    line-height: 2.8;
+    margin-top: 60px;
+    margin-right: 80px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.Skils-container_project{
+    margin-bottom: 320px;
+    justify-items: center;
+    margin-right: 150px;
+}
+
+
+.Skils-container_project-ment{
+    font-size: 60px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+
+
+.carousel,
+.carousel-item {
+    width: 620px;
+    height: auto;
+    margin: 0 auto; /* 중앙 정렬 */
+}
+
+
+.carousel-item img {
+    width: 100%; /* 부모 요소인 carousel-item에 맞춤 */
+    height: 100%;
+    object-fit: cover; /* 이미지가 320px의 크기에 맞춰지도록 */
+    cursor: pointer;
+}
+
+

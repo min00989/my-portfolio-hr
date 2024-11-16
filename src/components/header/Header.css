@@ -1,0 +1,43 @@
+.Header_container{
+    margin: 0;
+    padding: 0;
+    color: #B37600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.navbar-link{
+    color: #B37600;
+    text-decoration: none;
+}
+
+.navbar-link:active {
+    color: #B37600; /* 클릭 시 색상 유지 */
+    text-decoration: none; /* 클릭 시 밑줄 없음 */
+}
+
+.Header_logo{
+    font-size: 48px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 100px;
+}
+
+
+.Header_menu{
+    display: flex;
+    gap: 100px;
+    margin-left: 150px;
+
+}
+
+.Header_menu div{
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.Header_menu div:hover{
+    color: #8B4513;
+}
