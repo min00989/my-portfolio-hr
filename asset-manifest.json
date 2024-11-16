@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio-hr/static/css/main.d707732d.css",
-    "main.js": "/my-portfolio-hr/static/js/main.c2b10c84.js",
+    "main.css": "/my-portfolio-hr/static/css/main.adaab457.css",
+    "main.js": "/my-portfolio-hr/static/js/main.d7314a0b.js",
     "static/js/453.e87bc5b0.chunk.js": "/my-portfolio-hr/static/js/453.e87bc5b0.chunk.js",
     "static/media/BusinessManagement.svg": "/my-portfolio-hr/static/media/BusinessManagement.d7996e79540ebdb35e7c5306707eeeca.svg",
     "static/media/forusModal.svg": "/my-portfolio-hr/static/media/forusModal.cf2a8b6ad11927cbcb0b28f8061c59ea.svg",
@@ -10,12 +10,11 @@
     "static/media/supportersModal.svg": "/my-portfolio-hr/static/media/supportersModal.53368da6914c8c43d55acb35477ad32e.svg",
     "static/media/pawfitModal.svg": "/my-portfolio-hr/static/media/pawfitModal.d879019c9c8100cc81556d1455fa53a8.svg",
     "static/media/simplepleasuresModal.svg": "/my-portfolio-hr/static/media/simplepleasuresModal.3b282df9b7a10ba15e5b43111c1d3a17.svg",
-    "static/media/pawfit.svg": "/my-portfolio-hr/static/media/pawfit.ad4d81288bcb47e647e01de75a2c2404.svg",
+    "static/media/pawfit.svg": "/my-portfolio-hr/static/media/pawfit.4ca7d2cd6f0c648656f20dded73c870d.svg",
     "static/media/sungshin.svg": "/my-portfolio-hr/static/media/sungshin.900e0b6fc0c56724e10f02a71c05705b.svg",
     "static/media/FieldPlacement.svg": "/my-portfolio-hr/static/media/FieldPlacement.61a65b81b41751f7547891258c506392.svg",
     "static/media/rtsModal.svg": "/my-portfolio-hr/static/media/rtsModal.5607c79ae7b343a0d94e6d5ce0b628f6.svg",
     "static/media/contactImg.png": "/my-portfolio-hr/static/media/contactImg.a7eae59a5171f942a973.png",
-    "static/media/pawfit.png": "/my-portfolio-hr/static/media/pawfit.c5f728fe24c8e92e9df5.png",
     "static/media/Supporters.svg": "/my-portfolio-hr/static/media/Supporters.ba172810c1dafe62192678b266760420.svg",
     "static/media/home1.jpg": "/my-portfolio-hr/static/media/home1.71208845dc72fd165517.jpg",
     "static/media/skilsback2.png": "/my-portfolio-hr/static/media/skilsback2.1f608ec929a04ae450f2.png",
@@ -26,12 +25,12 @@
     "static/media/pawfit.jpg": "/my-portfolio-hr/static/media/pawfit.3163d4dac1254b9ed177.jpg",
     "static/media/Main.jpg": "/my-portfolio-hr/static/media/Main.1297b5294b48b82edabe.jpg",
     "static/media/react.png": "/my-portfolio-hr/static/media/react.728e42b7635b8bc1757d.png",
+    "static/media/workPerformanceSkils.svg": "/my-portfolio-hr/static/media/workPerformanceSkils.c62e5260752a42674fe80e05e88e1a67.svg",
     "static/media/js.png": "/my-portfolio-hr/static/media/js.d629d92f90d223bd3f65.png",
     "static/media/java.png": "/my-portfolio-hr/static/media/java.b584c62a88bc7ef9808d.png",
     "static/media/css.png": "/my-portfolio-hr/static/media/css.278d65acf504bc9ebb3e.png",
     "static/media/oracle.png": "/my-portfolio-hr/static/media/oracle.b0f6937c0b64ae475330.png",
     "static/media/kimminjin.jpg": "/my-portfolio-hr/static/media/kimminjin.941df5c07a4689392896.jpg",
-    "static/media/workPerformanceSkils.svg": "/my-portfolio-hr/static/media/workPerformanceSkils.460383d93d58d3404f0094ebd5537dde.svg",
     "static/media/html.png": "/my-portfolio-hr/static/media/html.46a2585356027f8bd4f0.png",
     "static/media/springboot.png": "/my-portfolio-hr/static/media/springboot.0dbb2c8bf689454d9aa5.png",
     "static/media/footer_img.jpg": "/my-portfolio-hr/static/media/footer_img.0601313dc535ea6a1ee6.jpg",
@@ -41,12 +40,12 @@
     "static/media/word.png": "/my-portfolio-hr/static/media/word.6a7c14f3c56070cadee9.png",
     "static/media/kimminjinPhoto.jpg": "/my-portfolio-hr/static/media/kimminjinPhoto.76f0844c883a130362e4.jpg",
     "index.html": "/my-portfolio-hr/index.html",
-    "main.d707732d.css.map": "/my-portfolio-hr/static/css/main.d707732d.css.map",
-    "main.c2b10c84.js.map": "/my-portfolio-hr/static/js/main.c2b10c84.js.map",
+    "main.adaab457.css.map": "/my-portfolio-hr/static/css/main.adaab457.css.map",
+    "main.d7314a0b.js.map": "/my-portfolio-hr/static/js/main.d7314a0b.js.map",
     "453.e87bc5b0.chunk.js.map": "/my-portfolio-hr/static/js/453.e87bc5b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d707732d.css",
-    "static/js/main.c2b10c84.js"
+    "static/css/main.adaab457.css",
+    "static/js/main.d7314a0b.js"
   ]
 }
