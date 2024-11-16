@@ -63,9 +63,9 @@ function HomeMain() {
         </div>
         <div className="Homemain_line"></div>
         <div className="growth-section">
-            <div className="growth-section_ment1">On a Journey of Growth and Innovation, Together.</div>
+            <div className="growth-section_ment1">Empowering People,<br/>Driving Growth, Together.</div>
             <img src={main} alt="main 사진" />
-            <div className="growth-section_ment2">성장과 혁신의 여정에 함께하겠습니다.</div>
+            <div className="growth-section_ment2">사람 중심의 소통과 지원으로, 조직과 함께 성장하겠습니다.</div>
         </div>
         <div className="Homemain_Endeavors-container">
             <div className="Homemain_Endeavors-title">Endeavors</div>

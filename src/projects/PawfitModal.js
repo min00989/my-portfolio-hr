@@ -7,10 +7,13 @@ function PawfitModal({ onClose }) {
             <div className="Project_modal-content" onClick={(e) => e.stopPropagation()}>
                 <button className="Project_close-button" onClick={onClose}>X</button>
                 <div className="Project_modal-title">
-                    <div className="Project_modal-name">PAWFIT</div>
+                    <div className="Project_modal-name2">PAWFIT</div>
                     <div className="Project_modal-tag">
                         <div className="Project_modal_content-tag">Development Project</div>
                     </div>
+                </div>
+                <div class="Project_modal-content-inner">
+                    <img src={pawfitModal} alt="PAWFIT" />
                 </div>
                 <iframe
                     width="930"
@@ -22,9 +25,6 @@ function PawfitModal({ onClose }) {
                     allowFullScreen
                     className="Project_modal-video"
                 ></iframe>
-                <div class="Project_modal-content-inner">
-                    <img src={pawfitModal} alt="PAWFIT" />
-                </div>
                 <div className="Project_modal-footer">KIM MIN JIN</div>
             </div>
         </div>

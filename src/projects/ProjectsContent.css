@@ -240,11 +240,11 @@
 
 .Project_modal-tag{
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 13px;
 }
 
 .Project_modal_content-tag{
-    font-size: 25px;
+    font-size: 20px;
     color: #B37600;
     background-color: rgba(179, 118, 0, 0.2); /* 배경만 20% 불투명 */
     border-radius: 30px;
